@@ -7,9 +7,9 @@
         <div class="container">
             <div class="row row-cols-md-1 text-center">
                 <div class="col text-center mb-5">
-                    <div class="colortext-3"><h1>Le nostre caratteristiche</h1></div>
+                    <div class="colortext"><h1>Le nostre caratteristiche</h1></div>
                     <div class="">
-                        <h4>Teniamo molto a risaltare le nostre peculiarità proprio perchè son un elemento differenziante che ci rende .</h4>
+                        <h4>Il cliente è il nostro obbiettivo</h4>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
         </div>
     </div>
     </div>
-    <div class="section-2">
+    <div class="ondina-bg section-2 ">
         <div class="container">
             <div class="row px-5 text-center">
                 <div class="col mb-5 spacing">
@@ -66,7 +66,7 @@
             </div>
         </div>
     </div>
-    <div class="section-2 " :style="`background-image: url('/img/${$route.meta.sectionBg}')`">
+    <div class="section-2" :style="`background-image: url('/img/${$route.meta.sectionBg}')`">
         <div class="container">
             <div class="row row-cols-2 text-center px-5 align-items-center">
                 <div class="col text-start">
@@ -86,7 +86,7 @@
             </div>
         </div>
     </div>
-    <div class="section-2">
+    <div class=" ondina-bg section-2">
         <div class="container">
             <div class="row px-5 text-center">
                 <div class="col px-5 mb-5 spacing">
@@ -98,43 +98,40 @@
             </div>
             <div class="row row-cols-lg-3 row-cols-md-1 justify-content-center">
             <div class="col d-flex justify-content-center mb-3">
-            <div class="skill-card">
+            <div class="skill-card text-center">
                 <header class="skill-card__header"><img class="skill-card__icon" src="/img/16.png" alt="HTML5 Logo"/></header>
-                    <section class="skill-card__body">
-                        <h2 class="skill-card__title">html</h2><span class="skill-card__duration">6 ans d'expérience</span>
-                        <ul class="skill-card__knowledge">
-                            <li>HTML5</li>
-                            <li>Sémantique</li>
-                            <li>SVG</li>
-                            <li>Canvas</li>
+                    <section class="skill-card__body ">
+                        <h2 class="skill-card__title p-2">servizi</h2><span class="skill-card__duration">Inizia da qui</span>
+                        <ul class="skill-card__knowledge ">
+                            <li>Sito vetrina</li>
+                            <li>Gestione canali Social</li>
                         </ul>
                     </section>
             </div>
             </div>
             <div class="col d-flex justify-content-center mb-3">
-            <div class="skill-card">
+            <div class="skill-card text-center">
                 <header class="skill-card__header"><img class="skill-card__icon" src="/img/17.png" alt="HTML5 Logo"/></header>
                     <section class="skill-card__body">
-                        <h2 class="skill-card__title">html</h2><span class="skill-card__duration">6 ans d'expérience</span>
+                        <h2 class="skill-card__title p-2">servizi</h2><span class="skill-card__duration">Fai il grande passo</span>
                         <ul class="skill-card__knowledge">
-                            <li>HTML5</li>
-                            <li>Sémantique</li>
-                            <li>SVG</li>
-                            <li>Canvas</li>
+                            <li>Sito vetrina</li>
+                            <li>Gestione canali Social</li>
+                            <li>Brand Identity</li>
                         </ul>
                     </section>
             </div>
             </div>
             <div class="col d-flex justify-content-center mb-3">
-            <div class="skill-card">
+            <div class="skill-card text-center">
                 <header class="skill-card__header"><img class="skill-card__icon" src="/img/18.png" alt="HTML5 Logo"/></header>
                     <section class="skill-card__body">
-                        <h2 class="skill-card__title">html</h2><span class="skill-card__duration">6 ans d'expérience</span>
+                        <h2 class="skill-card__title p-2">servizi</h2><span class="skill-card__duration">Abatti i tuoi copetitor</span>
                         <ul class="skill-card__knowledge">
-                            <li>HTML5</li>
-                            <li>Sémantique</li>
-                            <li>SVG</li>
-                            <li>Canvas</li>
+                            <li>Sito e-commerce</li>
+                            <li>Gestione canali Social</li>
+                            <li>Gestione sito Web</li>
+                            <li>Brand Identity</li>
                         </ul>
                     </section>
             </div>
@@ -242,6 +239,13 @@ export default {
             border: solid 1px #cd784e;
         }
     }
+    .ondina-bg{
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-image: url(/img/ondina.png);
+    }
     .colortext-2{
         color: #dc8357;
     }
@@ -257,6 +261,10 @@ export default {
     .section-2{
         padding-top: 80px;
         padding-bottom: 80px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
     }
     .bgcard{
         background-color:  #4b7f96;

@@ -2,7 +2,7 @@
 <div>
     <!--:style="`background-image: url('/img/${$route.meta.bgImage}')`"-->
     <!--<a class="btn btn-primary" href="#about">Get Started</a>-->
-    <header style="background-position: center;background-repeat: no-repeat;background-attachment: scroll;background-size: contain;" :style="`background-image: url('/img/${$route.meta.bgImage}')`">
+    <header style="background-position: center; background-repeat: no-repeat; background-size: contain;" :style="`background-image: url('/img/${$route.meta.bgImage}')`">
         <div class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
@@ -35,7 +35,7 @@ export default {
     height: auto;
     min-height: 45rem;
     padding: 15rem 0;
-    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%) 0%, rgb(76 127 150 / 13%) 75%, rgb(79 128 150) 100%);
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%) 0%, rgb(76 127 150 / 0%) 75%, rgb(79 128 150) 100%);
 }
 .masthead h1{
     font-size: 2.5rem;

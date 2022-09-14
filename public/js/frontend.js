@@ -354,7 +354,6 @@ var render = function render() {
     staticStyle: {
       "background-position": "center",
       "background-repeat": "no-repeat",
-      "background-attachment": "scroll",
       "background-size": "contain"
     },
     style: "background-image: url('/img/".concat(_vm.$route.meta.bgImage, "')")
@@ -395,7 +394,10 @@ var render = function render() {
       _c = _vm._self._c;
 
   return _c("div", [_c("nav", {
-    staticClass: "navbar bg-blue bg-opacity-25 navbar-expand-lg navbar-light fixed-top",
+    staticClass: "navbar navbar-expand-lg navbar-light fixed-top",
+    staticStyle: {
+      "background-color": "rgba(225, 225, 225, 0.1)"
+    },
     attrs: {
       id: "mainNav"
     }
@@ -658,7 +660,7 @@ var render = function render() {
       type: "button"
     }
   }, [_vm._v("Collabora con noi")])])], 1)])])])])]), _vm._v(" "), _c("div", {
-    staticClass: "section-2"
+    staticClass: "ondina-bg section-2"
   }, [_c("div", {
     staticClass: "container"
   }, [_vm._m(1), _vm._v(" "), _c("div", {
@@ -712,8 +714,8 @@ var staticRenderFns = [function () {
   }, [_c("div", {
     staticClass: "col text-center mb-5"
   }, [_c("div", {
-    staticClass: "colortext-3"
-  }, [_c("h1", [_vm._v("Le nostre caratteristiche")])]), _vm._v(" "), _c("div", {}, [_c("h4", [_vm._v("Teniamo molto a risaltare le nostre peculiarità proprio perchè son un elemento differenziante che ci rende .")])])])]);
+    staticClass: "colortext"
+  }, [_c("h1", [_vm._v("Le nostre caratteristiche")])]), _vm._v(" "), _c("div", {}, [_c("h4", [_vm._v("Il cliente è il nostro obbiettivo")])])])]);
 }, function () {
   var _vm = this,
       _c = _vm._self._c;
@@ -757,7 +759,7 @@ var staticRenderFns = [function () {
       _c = _vm._self._c;
 
   return _c("div", {
-    staticClass: "section-2"
+    staticClass: "ondina-bg section-2"
   }, [_c("div", {
     staticClass: "container"
   }, [_c("div", {
@@ -775,7 +777,7 @@ var staticRenderFns = [function () {
   }, [_c("div", {
     staticClass: "col d-flex justify-content-center mb-3"
   }, [_c("div", {
-    staticClass: "skill-card"
+    staticClass: "skill-card text-center"
   }, [_c("header", {
     staticClass: "skill-card__header"
   }, [_c("img", {
@@ -787,15 +789,15 @@ var staticRenderFns = [function () {
   })]), _vm._v(" "), _c("section", {
     staticClass: "skill-card__body"
   }, [_c("h2", {
-    staticClass: "skill-card__title"
-  }, [_vm._v("html")]), _c("span", {
+    staticClass: "skill-card__title p-2"
+  }, [_vm._v("servizi")]), _c("span", {
     staticClass: "skill-card__duration"
-  }, [_vm._v("6 ans d'expérience")]), _vm._v(" "), _c("ul", {
+  }, [_vm._v("Inizia da qui")]), _vm._v(" "), _c("ul", {
     staticClass: "skill-card__knowledge"
-  }, [_c("li", [_vm._v("HTML5")]), _vm._v(" "), _c("li", [_vm._v("Sémantique")]), _vm._v(" "), _c("li", [_vm._v("SVG")]), _vm._v(" "), _c("li", [_vm._v("Canvas")])])])])]), _vm._v(" "), _c("div", {
+  }, [_c("li", [_vm._v("Sito vetrina")]), _vm._v(" "), _c("li", [_vm._v("Gestione canali Social")])])])])]), _vm._v(" "), _c("div", {
     staticClass: "col d-flex justify-content-center mb-3"
   }, [_c("div", {
-    staticClass: "skill-card"
+    staticClass: "skill-card text-center"
   }, [_c("header", {
     staticClass: "skill-card__header"
   }, [_c("img", {
@@ -807,15 +809,15 @@ var staticRenderFns = [function () {
   })]), _vm._v(" "), _c("section", {
     staticClass: "skill-card__body"
   }, [_c("h2", {
-    staticClass: "skill-card__title"
-  }, [_vm._v("html")]), _c("span", {
+    staticClass: "skill-card__title p-2"
+  }, [_vm._v("servizi")]), _c("span", {
     staticClass: "skill-card__duration"
-  }, [_vm._v("6 ans d'expérience")]), _vm._v(" "), _c("ul", {
+  }, [_vm._v("Fai il grande passo")]), _vm._v(" "), _c("ul", {
     staticClass: "skill-card__knowledge"
-  }, [_c("li", [_vm._v("HTML5")]), _vm._v(" "), _c("li", [_vm._v("Sémantique")]), _vm._v(" "), _c("li", [_vm._v("SVG")]), _vm._v(" "), _c("li", [_vm._v("Canvas")])])])])]), _vm._v(" "), _c("div", {
+  }, [_c("li", [_vm._v("Sito vetrina")]), _vm._v(" "), _c("li", [_vm._v("Gestione canali Social")]), _vm._v(" "), _c("li", [_vm._v("Brand Identity")])])])])]), _vm._v(" "), _c("div", {
     staticClass: "col d-flex justify-content-center mb-3"
   }, [_c("div", {
-    staticClass: "skill-card"
+    staticClass: "skill-card text-center"
   }, [_c("header", {
     staticClass: "skill-card__header"
   }, [_c("img", {
@@ -827,12 +829,12 @@ var staticRenderFns = [function () {
   })]), _vm._v(" "), _c("section", {
     staticClass: "skill-card__body"
   }, [_c("h2", {
-    staticClass: "skill-card__title"
-  }, [_vm._v("html")]), _c("span", {
+    staticClass: "skill-card__title p-2"
+  }, [_vm._v("servizi")]), _c("span", {
     staticClass: "skill-card__duration"
-  }, [_vm._v("6 ans d'expérience")]), _vm._v(" "), _c("ul", {
+  }, [_vm._v("Abatti i tuoi copetitor")]), _vm._v(" "), _c("ul", {
     staticClass: "skill-card__knowledge"
-  }, [_c("li", [_vm._v("HTML5")]), _vm._v(" "), _c("li", [_vm._v("Sémantique")]), _vm._v(" "), _c("li", [_vm._v("SVG")]), _vm._v(" "), _c("li", [_vm._v("Canvas")])])])])])])])]);
+  }, [_c("li", [_vm._v("Sito e-commerce")]), _vm._v(" "), _c("li", [_vm._v("Gestione canali Social")]), _vm._v(" "), _c("li", [_vm._v("Gestione sito Web")]), _vm._v(" "), _c("li", [_vm._v("Brand Identity")])])])])])])])]);
 }];
 render._withStripped = true;
 
@@ -925,7 +927,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".section[data-v-b3c5cf30] {\n  margin-top: 100px;\n}\n.colortext[data-v-b3c5cf30] {\n  color: #E9966D;\n}\n.bgbuttom[data-v-b3c5cf30] {\n  background-color: #E9966D;\n}\n.bgbuttom[data-v-b3c5cf30]:hover {\n  background-color: #cd784e;\n  border: solid 1px #cd784e;\n}\n.colortext-2[data-v-b3c5cf30] {\n  color: #dc8357;\n}\n.colortext-3[data-v-b3c5cf30] {\n  color: #424242;\n}\n.colrtext-mini[data-v-b3c5cf30] {\n  color: #e3e4e5;\n}\n.ombre[data-v-b3c5cf30] {\n  box-shadow: 12px 19px 17px 4px rgba(0, 0, 0, 0.38);\n}\n.section-2[data-v-b3c5cf30] {\n  padding-top: 80px;\n  padding-bottom: 80px;\n}\n.bgcard[data-v-b3c5cf30] {\n  background-color: #4b7f96;\n  border-radius: 25px;\n}\n.bgcard2[data-v-b3c5cf30] {\n  background-color: #4b7f96;\n  border-radius: 25px;\n}\n.card-slim[data-v-b3c5cf30] {\n  border-radius: 4px;\n  background: #fff;\n  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow;\n  cursor: pointer;\n}\n.card-slim[data-v-b3c5cf30]:hover {\n  transform: scale(1.05);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);\n}\n.card-slim h3[data-v-b3c5cf30] {\n  font-weight: 600;\n}\n.card-slim img[data-v-b3c5cf30] {\n  position: absolute;\n  top: 20px;\n  right: 15px;\n  max-height: 120px;\n}\n.card-1[data-v-b3c5cf30] {\n  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);\n  background-repeat: no-repeat;\n  background-position: right;\n  background-size: 80px;\n}\n.skill-card[data-v-b3c5cf30] {\n  padding: 20px;\n  width: 15em;\n  background-color: #FFF;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  cursor: pointer;\n}\n.skill-card[data-v-b3c5cf30]:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n.skill-card:hover .skill-card__header[data-v-b3c5cf30] {\n  height: 40px;\n}\n.skill-card:hover .skill-card__header .skill-card__icon[data-v-b3c5cf30] {\n  transform: translateX(-50%) translateY(-50%) scale(3);\n}\n.skill-card:hover .skill-card__body[data-v-b3c5cf30] {\n  height: 170px;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30] {\n  transform: translateX(0);\n  transition-timing-function: cubic-bezier(0, 1.5, 1, 1);\n  transition-duration: 0.5s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(1) {\n  transition-delay: 0.25s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(2) {\n  transition-delay: 0.5s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(3) {\n  transition-delay: 0.75s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(4) {\n  transition-delay: 1s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(5) {\n  transition-delay: 1.25s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(6) {\n  transition-delay: 1.5s;\n}\n.skill-card .skill-card__header[data-v-b3c5cf30] {\n  position: relative;\n  background-color: #E9966D;\n  height: 170px;\n  margin: -20px -20px 20px -20px;\n  transition: height 0.5s;\n  overflow: hidden;\n}\n.skill-card .skill-card__header .skill-card__icon[data-v-b3c5cf30] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translateY(-50%) translateX(-50%);\n  display: block;\n  width: 128px;\n  height: 128px;\n  transition: transform 0.5s;\n}\n.skill-card .skill-card__body[data-v-b3c5cf30] {\n  height: 40px;\n  transition: height 0.5s;\n  overflow: hidden;\n}\n.skill-card .skill-card__body .skill-card__title[data-v-b3c5cf30] {\n  font-size: 1.4em;\n  font-weight: 600;\n  text-transform: uppercase;\n}\n.skill-card .skill-card__body .skill-card__duration[data-v-b3c5cf30] {\n  color: #9E9E9E;\n  font-style: italic;\n}\n.skill-card .skill-card__body .skill-card__knowledge[data-v-b3c5cf30] {\n  margin-top: 10px;\n  color: #424242;\n}\n.skill-card .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30] {\n  margin-top: 5px;\n  transition-duration: 0;\n  transition-delay: 0.5s;\n  transform: translateX(-100%);\n}", ""]);
+exports.push([module.i, ".section[data-v-b3c5cf30] {\n  margin-top: 100px;\n}\n.colortext[data-v-b3c5cf30] {\n  color: #E9966D;\n}\n.bgbuttom[data-v-b3c5cf30] {\n  background-color: #E9966D;\n}\n.bgbuttom[data-v-b3c5cf30]:hover {\n  background-color: #cd784e;\n  border: solid 1px #cd784e;\n}\n.ondina-bg[data-v-b3c5cf30] {\n  background-position: center center;\n  background-repeat: no-repeat;\n  background-attachment: scroll;\n  background-size: cover;\n  background-image: url(/img/ondina.png);\n}\n.colortext-2[data-v-b3c5cf30] {\n  color: #dc8357;\n}\n.colortext-3[data-v-b3c5cf30] {\n  color: #424242;\n}\n.colrtext-mini[data-v-b3c5cf30] {\n  color: #e3e4e5;\n}\n.ombre[data-v-b3c5cf30] {\n  box-shadow: 12px 19px 17px 4px rgba(0, 0, 0, 0.38);\n}\n.section-2[data-v-b3c5cf30] {\n  padding-top: 80px;\n  padding-bottom: 80px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-attachment: scroll;\n  background-size: cover;\n}\n.bgcard[data-v-b3c5cf30] {\n  background-color: #4b7f96;\n  border-radius: 25px;\n}\n.bgcard2[data-v-b3c5cf30] {\n  background-color: #4b7f96;\n  border-radius: 25px;\n}\n.card-slim[data-v-b3c5cf30] {\n  border-radius: 4px;\n  background: #fff;\n  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);\n  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow;\n  cursor: pointer;\n}\n.card-slim[data-v-b3c5cf30]:hover {\n  transform: scale(1.05);\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);\n}\n.card-slim h3[data-v-b3c5cf30] {\n  font-weight: 600;\n}\n.card-slim img[data-v-b3c5cf30] {\n  position: absolute;\n  top: 20px;\n  right: 15px;\n  max-height: 120px;\n}\n.card-1[data-v-b3c5cf30] {\n  background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);\n  background-repeat: no-repeat;\n  background-position: right;\n  background-size: 80px;\n}\n.skill-card[data-v-b3c5cf30] {\n  padding: 20px;\n  width: 15em;\n  background-color: #FFF;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);\n  cursor: pointer;\n}\n.skill-card[data-v-b3c5cf30]:hover {\n  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n}\n.skill-card:hover .skill-card__header[data-v-b3c5cf30] {\n  height: 40px;\n}\n.skill-card:hover .skill-card__header .skill-card__icon[data-v-b3c5cf30] {\n  transform: translateX(-50%) translateY(-50%) scale(3);\n}\n.skill-card:hover .skill-card__body[data-v-b3c5cf30] {\n  height: 170px;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30] {\n  transform: translateX(0);\n  transition-timing-function: cubic-bezier(0, 1.5, 1, 1);\n  transition-duration: 0.5s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(1) {\n  transition-delay: 0.25s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(2) {\n  transition-delay: 0.5s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(3) {\n  transition-delay: 0.75s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(4) {\n  transition-delay: 1s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(5) {\n  transition-delay: 1.25s;\n}\n.skill-card:hover .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30]:nth-child(6) {\n  transition-delay: 1.5s;\n}\n.skill-card .skill-card__header[data-v-b3c5cf30] {\n  position: relative;\n  background-color: #E9966D;\n  height: 170px;\n  margin: -20px -20px 20px -20px;\n  transition: height 0.5s;\n  overflow: hidden;\n}\n.skill-card .skill-card__header .skill-card__icon[data-v-b3c5cf30] {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translateY(-50%) translateX(-50%);\n  display: block;\n  width: 128px;\n  height: 128px;\n  transition: transform 0.5s;\n}\n.skill-card .skill-card__body[data-v-b3c5cf30] {\n  height: 40px;\n  transition: height 0.5s;\n  overflow: hidden;\n}\n.skill-card .skill-card__body .skill-card__title[data-v-b3c5cf30] {\n  font-size: 1.4em;\n  font-weight: 600;\n  text-transform: uppercase;\n}\n.skill-card .skill-card__body .skill-card__duration[data-v-b3c5cf30] {\n  color: #9E9E9E;\n  font-style: italic;\n}\n.skill-card .skill-card__body .skill-card__knowledge[data-v-b3c5cf30] {\n  margin-top: 10px;\n  color: #424242;\n}\n.skill-card .skill-card__body .skill-card__knowledge li[data-v-b3c5cf30] {\n  margin-top: 5px;\n  transition-duration: 0;\n  transition-delay: 0.5s;\n  transform: translateX(-100%);\n}", ""]);
 
 // exports
 
@@ -963,7 +965,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.masthead{\n        height: 100vh;\n        padding: 0;\n        position: relative;\n    width: 100%;\n    height: auto;\n    min-height: 45rem;\n    padding: 15rem 0;\n    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%) 0%, rgb(76 127 150 / 13%) 75%, rgb(79 128 150) 100%);\n}\n.masthead h1{\n    font-size: 2.5rem;\n    line-height: 6.5rem;\n    letter-spacing: 0.8rem;\n}\n\n", ""]);
+exports.push([module.i, "\n.masthead{\n        height: 100vh;\n        padding: 0;\n        position: relative;\n    width: 100%;\n    height: auto;\n    min-height: 45rem;\n    padding: 15rem 0;\n    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%) 0%, rgb(76 127 150 / 0%) 75%, rgb(79 128 150) 100%);\n}\n.masthead h1{\n    font-size: 2.5rem;\n    line-height: 6.5rem;\n    letter-spacing: 0.8rem;\n}\n\n", ""]);
 
 // exports
 
